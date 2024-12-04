@@ -1,0 +1,29 @@
+.form-data-cards {
+  padding: 20px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: rgb(37, 48, 77);
+  box-shadow: 0 4px 8px rgb(55, 66, 110);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+.card strong {
+  font-weight: bold;
+}
